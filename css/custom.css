@@ -1,0 +1,108 @@
+.table-responsive {
+border: 1px solid #ececec;
+}
+
+.navbar-brand>img {
+	display: inline;
+	width: 23px;
+}
+
+#lightbulb {
+max-width: 48px;
+}
+
+#hub {
+max-width: 48px;
+}
+
+.nav .glyphicon-refresh {
+color: white;
+display: inline-block;
+font-size: 25px;
+top: 6px;
+margin-left: 30px;
+cursor: pointer;
+}
+
+.nav .glyphicon-refresh:hover {
+	color: #00b8f1;
+	transition: ease all 0.5s;
+}
+
+#winkResult {
+display: inline-block;
+}
+
+td[id*='Desc'] div {
+line-height: 40px;
+}
+
+.fixed {
+position: fixed;
+top: 50px;
+background: white;
+padding-top: 10px;
+margin-bottom: 0px;
+border-bottom: 2px solid #ececec;
+margin-right: -40px;
+margin-left: -40px;
+width: 84%;
+z-index: 30;
+}
+
+.fixed:before {
+	-webkit-filter: blur(5px);
+}
+
+.dhtmlxslider_dhx_web .dhxsl_runner {
+	background-color: #00B8F1;
+	border: 1px solid #00b8f1;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: -6px !important;
+}
+
+.panel-default .panel-heading {
+	background-color: #f5f5f5;
+	background-image: none;
+	font-size: 24px;
+	font-weight: bold;
+	text-indent: -6px;
+}
+
+.dhtmlxslider_dhx_web .dhxsl_container {
+	float: none;
+}
+
+#winkstats {
+padding: 20px;
+padding-top: 0px;
+}
+
+#winkstats li {
+font-size: 11px;
+}
+
+.status {
+float: right;
+text-transform: capitalize;
+}
+
+.systemname {
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.operational .status {
+	color: green;
+}
+
+.partialoutage .status {
+	color: orange;
+}
+
+.investigating .status {
+	color: purple;
+}
