@@ -1,7 +1,7 @@
 window.setInterval(function(){
 //
 //
-$(".hideme").parent().hide();
+// HIDE NON LIGHT DEVICE $(".hideme").parent().hide();
 
 $('.status:contains("operational")').parent('li').addClass('operational');
 $('.status:contains("partial_outage")').parent('li').addClass('partialoutage');

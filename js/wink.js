@@ -329,8 +329,8 @@ function forceLogout()
 
 function fillBody() {
 var xhr = new XMLHttpRequest();
-var username = '';
-var password = '';
+var username = ' ';
+var password = ' ';
 var clientid = 'quirky_wink_android_app';
 var clientsecret = 'e749124ad386a5a35c0ab554a4f2c045';
 var sendstring = "{\"client_id\":\"" + clientid + "\",\"client_secret\":\"" + clientsecret + "\",\"username\":\"" + username + "\",\"password\":\"" + password + "\",\"grant_type\":\"password\"}";
@@ -547,7 +547,7 @@ xhr.onreadystatechange = function () {
 };
 	document.getElementById("winkResult").innerHTML = "Fetching...";
 	xhr.send();
-	window.setTimeout(function(){fetchDevices()},6000000);
+	window.setTimeout(function(){fetchDevices()},6000);
 
 }
 
