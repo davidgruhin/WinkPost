@@ -137,7 +137,10 @@ function getWinkRow(wink, row) {
 //			var state = document.createElement("img");
 //			state.style.width = 10;
 			var nTemp = wink.desired_state.max_set_point;
+			// FARENHEIGHT CALCULATION
 			nTemp = (nTemp * 1.8) + 32;
+			// CELSIUS CALCULTATION
+			// nTemp = nTemp;
 //			state.alt = nTemp.toString();
 			var img = document.createElement("img");
 			img.src = "png/thermostat/ic_device_thermostat_selection.png";
